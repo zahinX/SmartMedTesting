@@ -22,17 +22,17 @@ public class Locators {
 		return driver.findElement(By.id("clinicianLogin"));
 	}
 	
-	public static WebElement patientID(WebDriver driver) //Edit button
+	public static WebElement patientID(WebDriver driver) 
 	{
 		return driver.findElement(By.name("clinic_patient_ref"));
 	}
 	
-	public static WebElement checkBtn(WebDriver driver) //Edit button
+	public static WebElement checkBtn(WebDriver driver)
 	{
 		return driver.findElement(By.cssSelector("input[value='CHECK']"));
 	}
 	
-	public static WebElement addPatient(WebDriver driver) //Edit button
+	public static WebElement addPatient(WebDriver driver)
 	{
 		return driver.findElement(By.xpath("//a[normalize-space()='ADD PATIENT']"));
 	}
